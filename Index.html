@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkUp | Premium Trusted Services</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">LinkUp</div>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Premium Trusted Services</h1>
+      <p>Effortless booking, verified professionals, luxury service experience.</p>
+      <a href="#services" class="btn">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- SEARCH BAR -->
+  <section id="search-section">
+    <input type="text" id="serviceSearch" placeholder="Search for a service...">
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services-container">
+
+      <!-- Service cards as text only -->
+      <div class="service-card" data-service="Photography">
+        <h3>Photography</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="service-card" data-service="Videography">
+        <h3>Videography</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="service-card" data-service="Plumbing">
+        <h3>Plumbing</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="service-card" data-service="Mechanics">
+        <h3>Mechanics</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="service-card" data-service="Taxi">
+        <h3>Taxi</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="service-card" data-service="Car Rentals">
+        <h3>Car Rentals</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="service-card" data-service="Electricians">
+        <h3>Electricians</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="service-card" data-service="Event Planners">
+        <h3>Event Planners</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="service-card" data-service="Caterers">
+        <h3>Caterers</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="service-card" data-service="Landscapers">
+        <h3>Landscapers</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="service-card" data-service="Masons">
+        <h3>Masons</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="service-card" data-service="Car Wash">
+        <h3>Car Wash</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="service-card" data-service="Window & House Cleaning">
+        <h3>Window & House Cleaning</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="service-card" data-service="Freighting Services">
+        <h3>Freighting Services</h3>
+        <label><input type="checkbox" class="service-select"> Select</label>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+    </div>
+
+    <!-- Multi-service booking button -->
+    <button id="bookSelected" class="btn">Book Selected Services</button>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About LinkUp</h2>
+    <p>We connect you with trusted, vetted professionals for all your needs. From home maintenance to events, transportation, and more — effortless, reliable, premium.</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p class="contact-info">Or email us at <a href="mailto:linkup.bbd@gmail.com">linkup.bbd@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 LinkUp. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
